@@ -1,1591 +1,625 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" prefix="og: https://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YUKOKU RENGO FAN SITE | ゆうこく連合 応援プロジェクト</title>
-    <meta name="description" content="日本独立・日本再興・日本救世。ゆうこく連合（YUKOKU RENGO）の活動を応援する有志のファンサイトです。党員募集・原口一博政経塾の情報を掲載。">
-    <meta name="keywords" content="ゆうこく連合,原口一博,日本独立,日本再興,政経塾,党員募集">
-    <meta property="og:title" content="YUKOKU RENGO FAN SITE | ゆうこく連合 応援プロジェクト">
-    <meta property="og:description" content="日本独立・日本再興・日本救世。ゆうこく連合の最新情報、党員募集、原口一博政経塾の案内を掲載しています。">
-    <meta property="og:image" content="https://raw.githubusercontent.com/yukoku-japan/yukoku/main/favicon.png">
-    <meta property="og:url" content="https://yukoku.org/">
+
+    <!-- ===== PRIMARY SEO META TAGS ===== -->
+    <title>ゆうこく連合 応援プロジェクト | 党員募集・原口一博政経塾【公式ファンサイト】</title>
+    <meta name="description" content="ゆうこく連合（YUKOKU RENGO）の公式ファンサイト。日本独立・日本再興・日本救世を掲げる新政党の党員募集情報、原口一博政経塾（2026年4月開講・第1期）の詳細をご案内。入党申込はこちら。">
+    <meta name="keywords" content="ゆうこく連合,YUKOKU RENGO,原口一博,政経塾,党員募集,日本独立,日本再興,日本救世,新政党,入党,サポーター">
+    <meta name="author" content="TGO NEWS - Yukoku Rengo Fan Project">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="https://yukoku.org/">
+
+    <!-- ===== OPEN GRAPH (SNS SHARING) ===== -->
     <meta property="og:type" content="website">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:title" content="ゆうこく連合 応援プロジェクト | 党員募集・原口一博政経塾【公式ファンサイト】">
+    <meta property="og:description" content="ゆうこく連合（YUKOKU RENGO）の公式ファンサイト。日本独立・日本再興・日本救世を掲げる新政党の党員募集情報、原口一博政経塾（2026年4月開講・第1期）の詳細をご案内。">
+    <meta property="og:image" content="https://raw.githubusercontent.com/yukoku-japan/yukoku/main/favicon.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="ゆうこく連合 応援プロジェクト ロゴ">
+    <meta property="og:url" content="https://yukoku.org/">
+    <meta property="og:site_name" content="YUKOKU RENGO FAN SITE">
+
+    <!-- ===== TWITTER CARD ===== -->
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@TGO_RECLUTE">
+    <meta name="twitter:creator" content="@TGO_RECLUTE">
+    <meta name="twitter:title" content="ゆうこく連合 応援プロジェクト | 党員募集・原口一博政経塾">
+    <meta name="twitter:description" content="日本独立・日本再興・日本救世。ゆうこく連合の党員募集と原口一博政経塾（第1期）の情報はこちら。">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/yukoku-japan/yukoku/main/favicon.png">
+    <meta name="twitter:image:alt" content="ゆうこく連合 応援プロジェクト">
+
+    <!-- ===== FAVICON ===== -->
     <link rel="icon" href="https://raw.githubusercontent.com/yukoku-japan/yukoku/main/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/yukoku-japan/yukoku/main/favicon.png">
+
+    <!-- ===== STRUCTURED DATA (JSON-LD) ===== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ゆうこく連合（YUKOKU RENGO）",
+      "alternateName": "YUKOKU RENGO",
+      "url": "https://yukoku.org/",
+      "logo": "https://raw.githubusercontent.com/yukoku-japan/yukoku/main/favicon.png",
+      "description": "日本独立・日本再興・日本救世を掲げる政党。主権を国民の手に取り戻すことを目指す。",
+      "sameAs": [
+        "https://x.com/TGO_RECLUTE",
+        "https://www.youtube.com/@tgo-news",
+        "https://haraguti.com/"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "原口一博政経塾 第1期",
+      "description": "ゆうこく連合が主催する政経塾。次世代の日本を担うリーダーを輩出するための学び舎。認知心理学に基づく人間理解、経済・外交を学ぶ。",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-31",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "organizer": {
+        "@type": "Organization",
+        "name": "ゆうこく連合",
+        "url": "https://yukoku.org/"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "100000",
+        "priceCurrency": "JPY",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2026-02-13",
+        "validThrough": "2026-03-23",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSfHe4hB-8_f4qsejryE83LapmjIm4oOclc2wgk0Uumv-zoQpw/viewform?pli=1"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "ゆうこく連合の党員になるにはどうすればいいですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "オンラインフォームより必要事項を入力して送信後、案内メールに記載の口座へ会費を振り込むことで正式登録が完了します。日本国籍を有する18歳以上の方が対象です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ゆうこく連合の党費はいくらですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "特別賛助党員：年100,000円、党員：年6,000円、党友：年4,000円、サポーター：年2,000円の4種別があります。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "原口一博政経塾の費用と期間を教えてください。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2026年4月〜12月の9ヶ月間、年間受講料100,000円です。毎月2回（第1・第3火曜日）19:00よりオンライン（Zoom）で開講します。"
+          }
+        }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://yukoku.org/" },
+        { "@type": "ListItem", "position": 2, "name": "党員募集", "item": "https://yukoku.org/#recruitment" },
+        { "@type": "ListItem", "position": 3, "name": "原口一博政経塾", "item": "https://yukoku.org/#academy" }
+      ]
+    }
+    </script>
+
+    <!-- ===== PERFORMANCE: PRECONNECT ===== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Bebas+Neue&family=Zen+Antique&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://cdn.tailwindcss.com">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Oswald:wght@500;700&display=swap">
 
     <style>
         :root {
-            --red: #c8102e;
-            --red-bright: #ff1a3c;
-            --red-dim: #7a0a1c;
-            --gold: #c9a84c;
-            --dark: #06060a;
-            --dark2: #0d0d14;
-            --dark3: #12121c;
-            --text: #e8e0d4;
-            --text-dim: #8a8070;
+            --yukoku-red: #e11d48;
+            --yukoku-dark: #0a0a0a;
         }
-
-        a { cursor: pointer; }
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-        html { scroll-behavior: smooth; }
-
         body {
             font-family: 'Noto Sans JP', sans-serif;
-            background-color: var(--dark);
-            color: var(--text);
-            overflow-x: hidden;
-            cursor: none;
-        }
-
-        /* カスタムカーソル */
-        .cursor {
-            position: fixed;
-            width: 10px;
-            height: 10px;
-            background: var(--red-bright);
-            border-radius: 50%;
-            pointer-events: none;
-            z-index: 9999;
-            transform: translate(-50%, -50%);
-            transition: transform 0.1s, width 0.3s, height 0.3s, opacity 0.3s;
-            mix-blend-mode: difference;
-        }
-        .cursor-ring {
-            position: fixed;
-            width: 36px;
-            height: 36px;
-            border: 1px solid rgba(200,16,46,0.6);
-            border-radius: 50%;
-            pointer-events: none;
-            z-index: 9998;
-            transform: translate(-50%, -50%);
-            transition: transform 0.15s ease-out, width 0.3s, height 0.3s;
-        }
-
-        /* スクロールバー */
-        ::-webkit-scrollbar { width: 4px; }
-        ::-webkit-scrollbar-track { background: var(--dark); }
-        ::-webkit-scrollbar-thumb { background: var(--red-dim); }
-        ::-webkit-scrollbar-thumb:hover { background: var(--red); }
-
-        /* ノイズテクスチャ */
-        body::before {
-            content: '';
-            position: fixed;
-            inset: 0;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
-            opacity: 0.025;
-            pointer-events: none;
-            z-index: 0;
-        }
-
-        /* ナビゲーション */
-        nav {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 500;
-            padding: 0 5vw;
-            height: 70px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            transition: background 0.4s;
-        }
-        nav.scrolled {
-            background: rgba(6,6,10,0.95);
-            border-bottom: 1px solid rgba(200,16,46,0.2);
-            backdrop-filter: blur(20px);
-        }
-
-        .nav-logo {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            text-decoration: none;
-        }
-        .nav-logo img {
-            width: 38px;
-            height: 38px;
-            object-fit: contain;
-            filter: drop-shadow(0 0 8px rgba(200,16,46,0.8));
-        }
-        .nav-logo-text {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 1.4rem;
-            letter-spacing: 0.1em;
-            color: var(--text);
-        }
-        .nav-logo-text span { color: var(--red); }
-
-        .nav-links {
-            display: flex;
-            align-items: center;
-            gap: 40px;
-            list-style: none;
-        }
-        .nav-links a {
-            text-decoration: none;
-            font-size: 0.7rem;
-            font-weight: 700;
-            letter-spacing: 0.25em;
-            color: var(--text-dim);
-            transition: color 0.3s;
-            position: relative;
-        }
-        .nav-links a::after {
-            content: '';
-            position: absolute;
-            bottom: -4px;
-            left: 0;
-            width: 0;
-            height: 1px;
-            background: var(--red);
-            transition: width 0.3s;
-        }
-        .nav-links a:hover { color: var(--text); }
-        .nav-links a:hover::after { width: 100%; }
-
-        .nav-cta {
-            font-family: 'Bebas Neue', sans-serif;
-            letter-spacing: 0.15em;
-            font-size: 0.95rem !important;
-            color: var(--text) !important;
-            background: var(--red);
-            padding: 8px 20px;
-            clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
-            transition: background 0.3s !important;
-        }
-        .nav-cta:hover { background: var(--red-bright) !important; }
-        .nav-cta::after { display: none !important; }
-
-        /* ハンバーガー */
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            gap: 5px;
-            cursor: none;
-            background: none;
-            border: none;
-            padding: 4px;
-        }
-        .hamburger span {
-            display: block;
-            width: 26px;
-            height: 2px;
-            background: var(--text);
-            transition: all 0.3s;
-        }
-        .hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
-        .hamburger.open span:nth-child(2) { opacity: 0; }
-        .hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
-
-        /* モバイルメニュー */
-        .mobile-menu {
-            position: fixed;
-            inset: 0;
-            background: rgba(6,6,10,0.98);
-            z-index: 490;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 40px;
-            transform: translateX(100%);
-            transition: transform 0.5s cubic-bezier(0.77,0,0.175,1);
-        }
-        .mobile-menu.open { transform: translateX(0); }
-        .mobile-menu a {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 2.5rem;
-            letter-spacing: 0.15em;
-            color: var(--text);
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        .mobile-menu a:hover { color: var(--red); }
-        .mobile-cta {
-            font-size: 1.5rem !important;
-            background: var(--red);
-            padding: 12px 40px;
-            clip-path: polygon(12px 0%, 100% 0%, calc(100% - 12px) 100%, 0% 100%);
-        }
-
-        /* ヒーロー */
-        #hero {
-            position: relative;
-            min-height: 100svh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-        }
-
-        .hero-bg {
-            position: absolute;
-            inset: 0;
-            background: 
-                radial-gradient(ellipse 80% 60% at 50% 100%, rgba(200,16,46,0.12) 0%, transparent 70%),
-                radial-gradient(ellipse 40% 40% at 80% 20%, rgba(201,168,76,0.05) 0%, transparent 60%),
-                var(--dark);
-        }
-
-        /* 日の丸グリッド背景 */
-        .hero-grid {
-            position: absolute;
-            inset: 0;
-            background-image:
-                linear-gradient(rgba(200,16,46,0.04) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(200,16,46,0.04) 1px, transparent 1px);
-            background-size: 60px 60px;
-        }
-
-        .hero-circle {
-            position: absolute;
-            width: min(600px, 90vw);
-            height: min(600px, 90vw);
-            border-radius: 50%;
-            border: 1px solid rgba(200,16,46,0.08);
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            animation: pulse-ring 4s ease-in-out infinite;
-        }
-        .hero-circle:nth-child(2) {
-            width: min(800px, 120vw);
-            height: min(800px, 120vw);
-            border-color: rgba(200,16,46,0.04);
-            animation-delay: 1s;
-        }
-        .hero-circle:nth-child(3) {
-            width: min(1000px, 150vw);
-            height: min(1000px, 150vw);
-            border-color: rgba(200,16,46,0.02);
-            animation-delay: 2s;
-        }
-
-        @keyframes pulse-ring {
-            0%, 100% { opacity: 0.5; transform: translate(-50%, -50%) scale(1); }
-            50% { opacity: 1; transform: translate(-50%, -50%) scale(1.02); }
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 10;
-            text-align: center;
-            padding: 0 5vw;
-            max-width: 1000px;
-        }
-
-        .hero-eyebrow {
-            font-size: 0.65rem;
-            letter-spacing: 0.5em;
-            color: var(--red);
-            font-weight: 700;
-            margin-bottom: 24px;
-            opacity: 0;
-            animation: fadeUp 0.8s 0.2s forwards;
-        }
-
-        .hero-title {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: clamp(3.5rem, 12vw, 10rem);
-            line-height: 1.15;
-            letter-spacing: 0.02em;
-            margin-bottom: 16px;
-            opacity: 0;
-            animation: fadeUp 0.8s 0.4s forwards;
-        }
-        .hero-title .line1 { color: var(--text); display: block; white-space: nowrap; font-size: clamp(2rem, 9vw, 10rem); }
-        .hero-title .line2 {
-            display: block;
-            font-size: clamp(2rem, 7.5vw, 7.5rem);
-            -webkit-text-stroke: 2px var(--red);
-            color: transparent;
-            white-space: nowrap;
-        }
-        .hero-title .line3 {
-            color: var(--text);
-            display: block;
-            font-size: clamp(1.5rem, 5vw, 4rem);
-            letter-spacing: 0.15em;
-            margin-top: 8px;
-        }
-        .hero-title .line3 .rengo { color: var(--red); }
-
-        .hero-divider {
-            width: 80px;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, var(--red), transparent);
-            margin: 24px auto;
-            opacity: 0;
-            animation: fadeUp 0.8s 0.6s forwards;
-        }
-
-        .hero-desc {
-            font-size: clamp(0.85rem, 2vw, 1.1rem);
-            color: var(--text-dim);
-            line-height: 2;
-            max-width: 600px;
-            margin: 0 auto 40px;
-            opacity: 0;
-            animation: fadeUp 0.8s 0.7s forwards;
-        }
-
-        .hero-buttons {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 16px;
-            justify-content: center;
-            opacity: 0;
-            animation: fadeUp 0.8s 0.9s forwards;
-        }
-
-        .btn-primary {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 1.1rem;
-            letter-spacing: 0.2em;
-            color: #fff;
-            background: var(--red);
-            padding: 14px 36px;
-            text-decoration: none;
-            clip-path: polygon(12px 0%, 100% 0%, calc(100% - 12px) 100%, 0% 100%);
-            transition: background 0.3s, transform 0.3s;
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .btn-primary:hover { background: var(--red-bright); transform: translateY(-2px); }
-
-        .btn-secondary {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 1.1rem;
-            letter-spacing: 0.2em;
-            color: var(--text);
-            border: 1px solid rgba(200,16,46,0.4);
-            padding: 14px 36px;
-            text-decoration: none;
-            clip-path: polygon(12px 0%, 100% 0%, calc(100% - 12px) 100%, 0% 100%);
-            transition: border-color 0.3s, background 0.3s, transform 0.3s;
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .btn-secondary:hover { border-color: var(--red); background: rgba(200,16,46,0.08); transform: translateY(-2px); }
-
-        .scroll-hint {
-            position: absolute;
-            bottom: 40px;
-            left: 50%;
-            transform: translateX(-50%);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 8px;
-            opacity: 0.4;
-            animation: fadeIn 1s 2s forwards, bobble 2s 3s ease-in-out infinite;
-        }
-        .scroll-hint span {
-            font-size: 0.55rem;
-            letter-spacing: 0.4em;
-            font-weight: 700;
-            color: var(--text-dim);
-        }
-        .scroll-line {
-            width: 1px;
-            height: 50px;
-            background: linear-gradient(to bottom, var(--red), transparent);
-            animation: scroll-line 2s ease-in-out infinite;
-        }
-        @keyframes scroll-line {
-            0% { transform: scaleY(0); transform-origin: top; }
-            50% { transform: scaleY(1); transform-origin: top; }
-            51% { transform: scaleY(1); transform-origin: bottom; }
-            100% { transform: scaleY(0); transform-origin: bottom; }
-        }
-
-        /* 数字カウンター */
-        #stats {
-            background: var(--dark2);
-            border-top: 1px solid rgba(200,16,46,0.15);
-            border-bottom: 1px solid rgba(200,16,46,0.15);
-            padding: 60px 5vw;
-        }
-        .stats-grid {
-            max-width: 1100px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 40px;
-        }
-        .stat-item {
-            text-align: center;
-            position: relative;
-        }
-        .stat-item::after {
-            content: '';
-            position: absolute;
-            right: 0;
-            top: 20%;
-            height: 60%;
-            width: 1px;
-            background: rgba(200,16,46,0.2);
-        }
-        .stat-item:last-child::after { display: none; }
-        .stat-number {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: clamp(2.5rem, 5vw, 4rem);
-            color: var(--red);
-            line-height: 1;
-            letter-spacing: 0.05em;
-        }
-        .stat-label {
-            font-size: 0.7rem;
-            letter-spacing: 0.3em;
-            color: var(--text-dim);
-            margin-top: 8px;
-            font-weight: 700;
-        }
-
-        /* セクション共通 */
-        section { padding: 120px 5vw; }
-
-        .section-header {
-            margin-bottom: 80px;
-        }
-        .section-tag {
-            font-size: 0.65rem;
-            letter-spacing: 0.5em;
-            color: var(--red);
-            font-weight: 700;
-            margin-bottom: 16px;
-            display: block;
-        }
-        .section-title {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: clamp(2.5rem, 6vw, 5rem);
-            letter-spacing: 0.05em;
-            line-height: 1;
-            color: var(--text);
-        }
-        .section-title span { color: var(--red); }
-        .section-line {
-            width: 60px;
-            height: 3px;
-            background: var(--red);
-            margin-top: 24px;
-        }
-
-        /* 理念セクション */
-        #principles {
-            background: var(--dark2);
-        }
-        .principles-grid {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2px;
-        }
-        .principle-card {
-            background: var(--dark3);
-            padding: 60px 40px;
-            position: relative;
-            overflow: hidden;
-            transition: background 0.4s;
-        }
-        .principle-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 3px;
-            background: var(--red);
-            transform: scaleX(0);
-            transition: transform 0.4s;
-            transform-origin: left;
-        }
-        .principle-card:hover::before { transform: scaleX(1); }
-        .principle-card:hover { background: #161620; }
-
-        .principle-num {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 5rem;
-            color: rgba(200,16,46,0.1);
-            line-height: 1;
-            margin-bottom: 20px;
-            transition: color 0.4s;
-        }
-        .principle-card:hover .principle-num { color: rgba(200,16,46,0.8); }
-
-        .principle-kanji {
-            font-family: 'Zen Antique', serif;
-            font-size: 1.8rem;
-            color: var(--text);
-            margin-bottom: 12px;
-            letter-spacing: 0.1em;
-        }
-        .principle-desc {
-            font-size: 0.88rem;
-            color: var(--text-dim);
-            line-height: 2;
-        }
-
-        /* 党員募集 */
-        #recruitment {
-            background: var(--dark);
-        }
-        .recruitment-inner {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 80px;
-            align-items: start;
-        }
-
-        .tier-table { width: 100%; border-collapse: collapse; }
-        .tier-row {
-            border-bottom: 1px solid rgba(255,255,255,0.05);
-            transition: background 0.3s;
-        }
-        .tier-row:hover { background: rgba(200,16,46,0.05); }
-        .tier-row td { padding: 20px 16px; }
-        .tier-name {
-            font-weight: 700;
-            font-size: 1rem;
-            color: var(--text);
-        }
-        .tier-price {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 1.6rem;
-            color: var(--red);
-            letter-spacing: 0.05em;
-            text-align: right;
-        }
-        .tier-price span {
-            font-family: 'Noto Sans JP', sans-serif;
-            font-size: 0.7rem;
-            color: var(--text-dim);
-        }
-        .tier-featured {
-            background: rgba(200,16,46,0.08) !important;
-            border-left: 3px solid var(--red);
-        }
-
-        .steps { list-style: none; margin: 40px 0; }
-        .step {
-            display: flex;
-            gap: 24px;
-            padding: 24px 0;
-            border-bottom: 1px solid rgba(255,255,255,0.05);
-        }
-        .step:last-child { border-bottom: none; }
-        .step-num {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 2.5rem;
-            color: var(--red);
-            line-height: 1;
-            min-width: 40px;
-            opacity: 0.5;
-        }
-        .step-title {
-            font-weight: 700;
-            font-size: 1rem;
-            margin-bottom: 6px;
-            color: var(--text);
-        }
-        .step-desc {
-            font-size: 0.85rem;
-            color: var(--text-dim);
-            line-height: 1.8;
-        }
-
-        /* 政経塾 */
-        #academy {
-            background: var(--dark2);
-            position: relative;
-            overflow: hidden;
-        }
-        #academy::before {
-            content: '政経塾';
-            position: absolute;
-            right: -2%;
-            top: 50%;
-            transform: translateY(-50%);
-            font-family: 'Zen Antique', serif;
-            font-size: clamp(8rem, 20vw, 20rem);
-            color: rgba(200,16,46,0.03);
-            pointer-events: none;
-            white-space: nowrap;
-            line-height: 1;
-        }
-
-        .academy-inner {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 80px;
-            align-items: start;
-            position: relative;
-            z-index: 1;
-        }
-
-        .academy-info-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2px;
-            margin-bottom: 40px;
-        }
-        .info-cell {
-            background: var(--dark3);
-            padding: 24px;
-        }
-        .info-label {
-            font-size: 0.65rem;
-            letter-spacing: 0.3em;
-            color: var(--red);
-            font-weight: 700;
-            margin-bottom: 8px;
-        }
-        .info-value {
-            font-weight: 700;
-            font-size: 0.95rem;
-            color: var(--text);
-            line-height: 1.6;
-        }
-        .info-value.price {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 1.8rem;
-            color: var(--red);
-            letter-spacing: 0.05em;
-        }
-
-        .academy-badge {
-            display: inline-block;
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 0.85rem;
-            letter-spacing: 0.2em;
-            background: var(--red);
-            color: #fff;
-            padding: 6px 16px;
-            clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
-            margin-bottom: 24px;
-        }
-
-        .deadline-box {
-            background: var(--dark3);
-            border: 1px solid rgba(200,16,46,0.3);
-            padding: 32px;
-            margin-bottom: 32px;
-            position: relative;
-            overflow: hidden;
-        }
-        .deadline-box::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0;
-            width: 4px;
-            height: 100%;
-            background: var(--red);
-        }
-        .deadline-label {
-            font-size: 0.65rem;
-            letter-spacing: 0.4em;
-            color: var(--red);
-            font-weight: 700;
-            margin-bottom: 12px;
-        }
-        .deadline-date {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: clamp(1.5rem, 3vw, 2.2rem);
-            color: var(--text);
-            letter-spacing: 0.05em;
-        }
-
-        /* SNSセクション */
-        #social {
-            background: var(--dark);
-            padding: 80px 5vw;
-        }
-        .social-inner {
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: center;
-        }
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 16px;
-            margin-top: 40px;
-            flex-wrap: wrap;
-        }
-        .social-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            padding: 14px 28px;
-            border: 1px solid rgba(255,255,255,0.1);
-            color: var(--text);
-            text-decoration: none;
-            font-size: 0.8rem;
-            font-weight: 700;
-            letter-spacing: 0.2em;
-            transition: all 0.3s;
-            clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
-        }
-        .social-link:hover {
-            border-color: var(--red);
-            background: rgba(200,16,46,0.1);
-            color: var(--red);
-        }
-        .social-link svg { width: 18px; height: 18px; fill: currentColor; }
-
-        /* フッター */
-        footer {
-            background: #030305;
-            border-top: 1px solid rgba(200,16,46,0.15);
-            padding: 80px 5vw 40px;
-        }
-        .footer-grid {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: 2fr 1fr 1fr;
-            gap: 60px;
-            margin-bottom: 60px;
-        }
-        .footer-logo {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            margin-bottom: 20px;
-        }
-        .footer-logo img {
-            width: 40px;
-            height: 40px;
-            object-fit: contain;
-            opacity: 0.8;
-        }
-        .footer-logo-text {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 1.3rem;
-            letter-spacing: 0.1em;
-            color: var(--text);
-        }
-        .footer-logo-text span { color: var(--red); }
-        .footer-desc {
-            font-size: 0.8rem;
-            color: var(--text-dim);
-            line-height: 2;
-            max-width: 320px;
-        }
-        .footer-heading {
-            font-size: 0.65rem;
-            letter-spacing: 0.4em;
-            color: var(--red);
-            font-weight: 700;
-            margin-bottom: 24px;
-            padding-bottom: 12px;
-            border-bottom: 1px solid rgba(200,16,46,0.2);
-        }
-        .footer-links { list-style: none; }
-        .footer-links li { margin-bottom: 14px; }
-        .footer-links a {
-            font-size: 0.82rem;
-            color: var(--text-dim);
-            text-decoration: none;
-            transition: color 0.3s;
-            letter-spacing: 0.05em;
-        }
-        .footer-links a:hover { color: var(--text); }
-
-        .footer-bottom {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding-top: 32px;
-            border-top: 1px solid rgba(255,255,255,0.05);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 16px;
-        }
-        .footer-copy {
-            font-size: 0.7rem;
-            color: var(--text-dim);
-            letter-spacing: 0.1em;
-        }
-        .footer-disclaimer {
-            font-size: 0.7rem;
-            color: rgba(138,128,112,0.5);
-            max-width: 480px;
-            text-align: right;
-            line-height: 1.8;
-        }
-
-        /* アニメーション */
-        @keyframes fadeUp {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        @keyframes fadeIn {
-            to { opacity: 0.4; }
-        }
-        @keyframes bobble {
-            0%, 100% { transform: translateX(-50%) translateY(0); }
-            50% { transform: translateX(-50%) translateY(8px); }
-        }
-
-        /* スクロールリビール */
-        .reveal {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: opacity 0.7s ease, transform 0.7s ease;
-        }
-        .reveal.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        .reveal-delay-1 { transition-delay: 0.1s; }
-        .reveal-delay-2 { transition-delay: 0.2s; }
-        .reveal-delay-3 { transition-delay: 0.3s; }
-
-        /* 申込みボタン共通スタイル */
-        .event-apply-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 6px;
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 1rem;
-            letter-spacing: 0.2em;
-            color: #fff;
-            background: var(--red);
-            padding: 10px 20px;
-            clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
-            text-decoration: none;
-            cursor: pointer;
-            transition: background 0.3s, transform 0.2s;
-            white-space: nowrap;
-            position: relative;
-            z-index: 10;
-        }
-        .event-apply-btn:hover {
-            background: var(--red-bright);
-            transform: translateY(-2px);
-        }
-
-        /* イベントセクション */
-        #events {
-            background: var(--dark3);
-        }
-
-        /* ====================================
-           イベントカードの編集方法：
-           各 .event-card ブロックをコピー＆ペーストして
-           日付・タイトル・場所・説明を書き換えてください。
-           終了したイベントには class="event-card past" を付けると
-           グレーアウト表示になります。
-        ==================================== */
-        .events-list {
-            max-width: 900px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            gap: 2px;
-        }
-
-        .event-card {
-            display: grid;
-            grid-template-columns: 120px 1fr auto;
-            align-items: center;
-            gap: 32px;
-            background: var(--dark2);
-            padding: 32px 36px;
-            border-left: 3px solid var(--red);
-            transition: background 0.3s, border-color 0.3s;
-            position: relative;
-            overflow: hidden;
-        }
-        .event-card::after {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(90deg, rgba(200,16,46,0.04), transparent);
-            opacity: 0;
-            transition: opacity 0.3s;
-            pointer-events: none;
-        }
-        .event-card:hover { background: #161620; }
-        .event-card:hover::after { opacity: 1; }
-
-        /* 終了済みイベント */
-        .event-card.past {
-            border-left-color: rgba(255,255,255,0.1);
-            opacity: 0.45;
-        }
-        .event-card.past:hover { opacity: 0.65; }
-
-        .event-date-block {
-            text-align: center;
-        }
-        .event-month {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 2.8rem;
-            color: var(--red);
-            font-weight: 400;
-            display: block;
-            line-height: 1;
-        }
-        .event-card.past .event-month { color: var(--text-dim); }
-        .event-day {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 3rem;
-            line-height: 1;
-            color: var(--text);
-            letter-spacing: 0.05em;
-        }
-        .event-weekday {
-            font-size: 0.65rem;
-            letter-spacing: 0.2em;
-            color: var(--text-dim);
-            font-weight: 700;
-        }
-
-        .event-body {}
-        .event-type-tag {
-            display: inline-block;
-            font-size: 0.6rem;
-            letter-spacing: 0.3em;
-            font-weight: 700;
-            color: var(--red);
-            border: 1px solid rgba(200,16,46,0.4);
-            padding: 3px 10px;
-            margin-bottom: 10px;
-            clip-path: polygon(4px 0%, 100% 0%, calc(100% - 4px) 100%, 0% 100%);
-        }
-        .event-card.past .event-type-tag {
-            color: var(--text-dim);
-            border-color: rgba(255,255,255,0.15);
-        }
-        .event-title {
-            font-weight: 700;
-            font-size: 1.05rem;
-            color: var(--text);
-            margin-bottom: 8px;
-            line-height: 1.5;
-        }
-        .event-meta {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 16px;
-            font-size: 0.78rem;
-            color: var(--text-dim);
-        }
-        .event-meta span {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-        .event-meta svg { opacity: 0.6; flex-shrink: 0; }
-
-        .event-status {
-            text-align: center;
-            min-width: 80px;
-        }
-        .status-badge {
-            display: inline-block;
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 0.75rem;
-            letter-spacing: 0.2em;
-            padding: 6px 14px;
-            clip-path: polygon(6px 0%, 100% 0%, calc(100% - 6px) 100%, 0% 100%);
-        }
-        .status-upcoming {
-            background: rgba(200,16,46,0.15);
-            color: var(--red);
-            border: 1px solid rgba(200,16,46,0.4);
-            animation: blink-border 2s ease-in-out infinite;
-        }
-        .status-ended {
-            background: rgba(255,255,255,0.04);
-            color: var(--text-dim);
+            background-color: var(--yukoku-dark);
+            color: #ffffff;
+            scroll-behavior: smooth;
+        }
+        .font-oswald { font-family: 'Oswald', sans-serif; }
+        .glass-panel {
+            background: rgba(255,255,255,0.03);
+            backdrop-filter: blur(12px);
             border: 1px solid rgba(255,255,255,0.1);
         }
-        @keyframes blink-border {
-            0%, 100% { border-color: rgba(200,16,46,0.4); }
-            50% { border-color: rgba(200,16,46,0.9); }
+        .scanline {
+            width: 100%; height: 100px; z-index: 10;
+            background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(225,29,72,0.1) 50%, rgba(0,0,0,0) 100%);
+            opacity: 0.1; position: absolute; bottom: 100%;
+            animation: scanline 8s linear infinite;
         }
+        @keyframes scanline { 0%{bottom:100%} 100%{bottom:-100%} }
+        .title-reveal { animation: titleReveal 1.2s cubic-bezier(0.23,1,0.32,1) forwards; opacity:0; transform:translateY(30px) skewY(2deg); filter:blur(10px); }
+        @keyframes titleReveal { to{opacity:1;transform:translateY(0) skewY(0deg);filter:blur(0)} }
+        .subtitle-reveal { animation: titleReveal 1.2s cubic-bezier(0.23,1,0.32,1) 0.3s forwards; opacity:0; transform:translateY(20px); }
+        .hero-glow-text { text-shadow: 0 0 30px rgba(225,29,72,0.5); }
+        .logo-glow { filter: drop-shadow(0 0 12px rgba(225,29,72,0.7)); }
+        .section-accent { position: relative; }
+        .section-accent::before { content:''; position:absolute; left:0; top:0; width:4px; height:100%; background:var(--yukoku-red); }
+        .tier-card:hover { border-color:var(--yukoku-red); background:rgba(225,29,72,0.08); transform:scale(1.02); }
+        ::-webkit-scrollbar{width:6px}
+        ::-webkit-scrollbar-track{background:#0a0a0a}
+        ::-webkit-scrollbar-thumb{background:#333;border-radius:10px}
+        ::-webkit-scrollbar-thumb:hover{background:var(--yukoku-red)}
+        #mobile-menu{transition:transform 0.4s cubic-bezier(0.4,0,0.2,1)}
 
-        .events-empty {
-            text-align: center;
-            padding: 60px;
-            color: var(--text-dim);
-            font-size: 0.85rem;
-            letter-spacing: 0.2em;
-            border: 1px dashed rgba(255,255,255,0.08);
-        }
+        /* SEO: Skip navigation for accessibility (also good for SEO) */
+        .skip-nav { position:absolute; top:-40px; left:0; background:var(--yukoku-red); color:white; padding:8px; z-index:200; transition:top 0.2s; }
+        .skip-nav:focus { top:0; }
 
-        @media (max-width: 700px) {
-            .event-card {
-                grid-template-columns: 80px 1fr;
-                grid-template-rows: auto auto;
-                gap: 16px 20px;
-                padding: 24px 20px;
-            }
-            .event-status {
-                grid-column: 2;
-                grid-row: 1;
-                text-align: left;
-                min-width: unset;
-            }
-            .event-body { grid-column: 2; }
-            .event-date-block { grid-row: 1 / 3; align-self: start; padding-top: 4px; }
-            .event-day { font-size: 2.2rem; }
-        }
-
-        /* レスポンシブ */
-        @media (max-width: 900px) {
-            .nav-links { display: none; }
-            .hamburger { display: flex; }
-            .recruitment-inner,
-            .academy-inner,
-            .footer-grid { grid-template-columns: 1fr; gap: 48px; }
-            .academy-info-grid { grid-template-columns: 1fr 1fr; }
-            section { padding: 80px 5vw; }
-            .stat-item::after { display: none; }
-            .footer-disclaimer { text-align: left; }
-            .footer-bottom { flex-direction: column; align-items: flex-start; }
-        }
-        @media (max-width: 500px) {
-            .academy-info-grid { grid-template-columns: 1fr; }
-            .hero-buttons { flex-direction: column; align-items: center; }
-            .btn-primary, .btn-secondary { width: 100%; justify-content: center; }
-            body { cursor: auto; }
-            .cursor, .cursor-ring { display: none; }
-        }
+        /* Improve CLS: reserve space for images */
+        .logo-img { width:40px; height:40px; }
     </style>
 </head>
-<body>
+<body class="overflow-x-hidden">
 
-    <!-- カスタムカーソル -->
-    <div class="cursor" id="cursor"></div>
-    <div class="cursor-ring" id="cursor-ring"></div>
+    <!-- SEO/Accessibility: Skip Navigation -->
+    <a href="#main-content" class="skip-nav">メインコンテンツへスキップ</a>
 
     <!-- ナビゲーション -->
-    <nav id="navbar">
-        <a href="#hero" class="nav-logo">
-            <img src="https://raw.githubusercontent.com/yukoku-japan/yukoku/main/favicon.png" alt="ゆうこく連合">
-            <span class="nav-logo-text">YUKOKU <span>RENGO</span></span>
-        </a>
-        <ul class="nav-links">
-            <li><a href="#principles">PRINCIPLES</a></li>
-            <li><a href="#events">EVENTS</a></li>
-            <li><a href="#recruitment">RECRUIT</a></li>
-            <li><a href="#academy">ACADEMY</a></li>
-            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfhhyypE1DZMu2kpr0o_jSGQL5AjtFNy7qVfjozKaaauV0AFQ/viewform" target="_blank" class="nav-cta">JOIN NOW</a></li>
-        </ul>
-        <button class="hamburger" id="hamburger" aria-label="メニュー">
-            <span></span><span></span><span></span>
-        </button>
+    <nav class="fixed top-0 w-full z-[100] glass-panel border-b border-white/5" role="navigation" aria-label="メインナビゲーション">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="flex items-center gap-3 group" aria-label="ゆうこく連合 応援プロジェクト トップページ">
+                <img src="https://raw.githubusercontent.com/yukoku-japan/yukoku/main/favicon.png"
+                     alt="ゆうこく連合ロゴ"
+                     class="logo-img logo-glow object-contain transition-transform group-hover:rotate-12"
+                     width="40" height="40" loading="eager">
+                <div class="text-xl font-black tracking-tighter font-oswald uppercase hidden sm:block text-white">
+                    YUKOKU <span class="text-rose-600">RENGO</span>
+                </div>
+            </a>
+            <div class="hidden lg:flex space-x-10 text-xs font-bold tracking-widest text-gray-300 items-center">
+                <a href="#home" class="hover:text-rose-500 transition">HOME</a>
+                <a href="#recruitment" class="hover:text-rose-500 transition">RECRUIT</a>
+                <a href="#academy" class="hover:text-rose-500 transition">ACADEMY</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfhhyypE1DZMu2kpr0o_jSGQL5AjtFNy7qVfjozKaaauV0AFQ/viewform"
+                   target="_blank" rel="noopener noreferrer"
+                   class="bg-rose-600 text-white px-5 py-2 rounded-full hover:bg-rose-700 transition shadow-lg shadow-rose-600/20">JOIN NOW</a>
+            </div>
+            <button class="lg:hidden p-2 text-rose-500 focus:outline-none" id="mobile-menu-trigger"
+                    aria-label="メニューを開く" aria-expanded="false" aria-controls="mobile-menu">
+                <i data-lucide="menu" id="menu-icon" aria-hidden="true"></i>
+            </button>
+        </div>
     </nav>
 
     <!-- モバイルメニュー -->
-    <div class="mobile-menu" id="mobile-menu">
-        <a href="#principles" class="mobile-link">PRINCIPLES</a>
-        <a href="#events" class="mobile-link">EVENTS</a>
-        <a href="#recruitment" class="mobile-link">RECRUIT</a>
-        <a href="#academy" class="mobile-link">ACADEMY</a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfhhyypE1DZMu2kpr0o_jSGQL5AjtFNy7qVfjozKaaauV0AFQ/viewform" target="_blank" class="mobile-cta">JOIN NOW</a>
+    <div id="mobile-menu" class="fixed inset-0 z-[90] bg-black/95 flex flex-col items-center justify-center space-y-8 translate-x-full lg:hidden"
+         role="dialog" aria-modal="true" aria-label="モバイルナビゲーション">
+        <a href="#home" class="text-3xl font-black font-oswald text-white hover:text-rose-500 transition mobile-link">HOME</a>
+        <a href="#recruitment" class="text-3xl font-black font-oswald text-white hover:text-rose-500 transition mobile-link">RECRUIT</a>
+        <a href="#academy" class="text-3xl font-black font-oswald text-white hover:text-rose-500 transition mobile-link">ACADEMY</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfhhyypE1DZMu2kpr0o_jSGQL5AjtFNy7qVfjozKaaauV0AFQ/viewform"
+           target="_blank" rel="noopener noreferrer"
+           class="px-8 py-3 bg-rose-600 text-white rounded-full font-bold">JOIN NOW</a>
     </div>
 
-    <!-- ヒーロー -->
-    <section id="hero">
-        <div class="hero-bg"></div>
-        <div class="hero-grid"></div>
-        <div class="hero-circle"></div>
-        <div class="hero-circle"></div>
-        <div class="hero-circle"></div>
-
-        <div class="hero-content">
-            <p class="hero-eyebrow">FAN PROJECT — OFFICIAL SUPPORT SITE</p>
-            <h1 class="hero-title">
-                <span class="line1">ゆうこく<span style="color:var(--red);">連合</span></span>
-                <span class="line2">応援プロジェクト</span>
-                <span class="line3">YUKOKU <span class="rengo">RENGO</span></span>
+    <!-- ヒーローセクション -->
+    <main id="main-content">
+    <section id="home" class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden"
+             aria-label="ゆうこく連合 応援プロジェクト トップ">
+        <div class="absolute inset-0 z-0" aria-hidden="true">
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-black/60 to-[#0a0a0a] z-10"></div>
+            <img src="https://images.unsplash.com/photo-1614850523296-d8c1af93d400?q=80&w=2070&auto=format&fit=crop"
+                 alt=""
+                 class="w-full h-full object-cover opacity-30 scale-110"
+                 id="hero-parallax"
+                 width="2070" height="1380"
+                 loading="eager" fetchpriority="high"
+                 aria-hidden="true">
+            <div class="scanline"></div>
+        </div>
+        
+        <div class="relative z-20 text-center px-6 max-w-5xl">
+            <h1 class="text-4xl xs:text-5xl sm:text-7xl md:text-9xl font-black mb-6 tracking-tighter italic font-oswald leading-none uppercase title-reveal hero-glow-text">
+                <span class="block mb-2 sm:mb-4 text-white">ゆうこく連合</span>
+                <span class="block text-rose-600">応援プロジェクト</span>
             </h1>
-            <div class="hero-divider"></div>
-            <p class="hero-desc">
-                日本独立・日本再興・日本救世。<br>
-                私たちはゆうこく連合の発展を目的として<br>
-                様々なプロジェクトを応援しています。
+            <p class="text-base sm:text-xl md:text-2xl text-white font-medium max-w-3xl mx-auto mb-4 leading-relaxed subtitle-reveal">
+                日本独立・日本再興・日本救世。<br class="hidden sm:block">
+                私たちはゆうこく連合の発展を目的として様々なプロジェクトを応援しています。
             </p>
-            <div class="hero-buttons">
-                <a href="#recruitment" class="btn-primary">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                    党員募集
+            <!-- SEO: 追加キーワードを含む説明文 -->
+            <p class="text-sm text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed subtitle-reveal" style="animation-delay:0.15s">
+                原口一博氏が率いる新政党「ゆうこく連合」。党員・党友・サポーター募集中。
+                2026年4月開講の<strong class="text-rose-400">原口一博政経塾（第1期）</strong>申込受付中。
+            </p>
+            
+            <div class="flex flex-wrap justify-center gap-4 subtitle-reveal" style="animation-delay: 0.6s;">
+                <a href="#recruitment"
+                   class="group relative px-6 py-4 sm:px-8 sm:py-5 overflow-hidden rounded-full font-bold transition-all bg-rose-600 hover:bg-rose-700 shadow-xl shadow-rose-600/30">
+                    <span class="relative flex items-center gap-2 italic text-white uppercase tracking-wider text-sm sm:text-base">
+                        党員募集ページ <i data-lucide="users" class="w-4 h-4 sm:w-5 sm:h-5" aria-hidden="true"></i>
+                    </span>
                 </a>
-                <a href="#academy" class="btn-secondary">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-                    政経塾 第1期
-                </a>
-            </div>
-        </div>
-
-        <div class="scroll-hint">
-            <span>SCROLL</span>
-            <div class="scroll-line"></div>
-        </div>
-    </section>
-
-
-
-    <!-- 理念 -->
-    <section id="principles">
-        <div style="max-width:1200px;margin:0 auto;">
-            <div class="section-header reveal">
-                <span class="section-tag">OUR PHILOSOPHY</span>
-                <h2 class="section-title">三つの<span>理念</span></h2>
-                <div class="section-line"></div>
-            </div>
-            <div class="principles-grid">
-                <div class="principle-card reveal">
-                    <div class="principle-num">01</div>
-                    <div class="principle-kanji">日本独立</div>
-                    <p class="principle-desc">独立自尊の日本を創る。国際社会において、他国に依存せず、自らの意志で歩む真の独立を目指します。</p>
-                </div>
-                <div class="principle-card reveal reveal-delay-1">
-                    <div class="principle-num">02</div>
-                    <div class="principle-kanji">日本再興</div>
-                    <p class="principle-desc">衰退から成長へ。停滞した経済と社会構造を根本から見直し、再び輝く日本へと変革します。</p>
-                </div>
-                <div class="principle-card reveal reveal-delay-2">
-                    <div class="principle-num">03</div>
-                    <div class="principle-kanji">日本救世</div>
-                    <p class="principle-desc">国民の命と暮らしを守る。未曾有の危機に対し、確固たる信念を持って国民の未来を切り拓きます。</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- イベント情報 -->
-    <!--
-    =====================================================
-    【イベント情報の編集方法】
-
-    ▼ イベントを追加する場合：
-      下記の <div class="event-card"> ブロックをコピーして
-      日付・タイトル・場所・内容を書き換えてください。
-
-    ▼ 終了したイベントにする場合：
-      <div class="event-card"> を
-      <div class="event-card past"> に変更し、
-      status-upcomingクラスを status-ended に変更、
-      テキストを「ENDED」にしてください。
-
-    ▼ イベントを削除する場合：
-      <div class="event-card"> ～ </div> ブロックごと削除してください。
-    =====================================================
-    -->
-    <section id="events">
-        <div style="max-width:900px;margin:0 auto;">
-            <div class="section-header reveal">
-                <span class="section-tag">ACTIVITIES & EVENTS</span>
-                <h2 class="section-title">イベント<span>情報</span></h2>
-                <div class="section-line"></div>
-            </div>
-
-            <div class="events-list">
-
-                <!-- ▼▼▼ イベントカード ここから ▼▼▼ -->
-
-                <div class="event-card reveal" style="border-left-color:var(--gold);">
-                    <div class="event-date-block">
-                        <span class="event-month" style="color:var(--gold);">3月</span>
-                        <div class="event-day" style="color:var(--gold);">22</div>
-                        <div class="event-weekday">SUN</div>
-                    </div>
-                    <div class="event-body">
-                        <span class="event-type-tag" style="color:var(--gold);border-color:rgba(201,168,76,0.5);">映画上映・講演会</span>
-                        <div class="event-title">ドキュメンタリー映画「食の安全を守る人々」＆川田龍平氏トーク</div>
-                        <div class="event-meta">
-                            <span>
-                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                                第一部 13:30〜15:20（映画上映）／ 第二部 15:30〜17:00（講演会＆質疑応答）
-                            </span>
-                            <span>
-                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                                千葉生涯学習センター B1F 小ホール（千葉県）
-                            </span>
-                            <span>
-                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
-                                定員：80名
-                            </span>
-                        </div>
-                    </div>
-                    <div class="event-status" style="position:relative;z-index:10;">
-                        <div style="display:flex;flex-direction:column;align-items:center;gap:10px;">
-                            <span class="status-badge status-upcoming">UPCOMING</span>
-                            <a href="https://passmarket.yahoo.co.jp/event/show/detail/02tiye2gwzt41.html" target="_blank" rel="noopener noreferrer" class="event-apply-btn">
-                                申込む
-                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="event-card reveal">
-                    <div class="event-date-block">
-                        <span class="event-month">4月</span>
-                        <div class="event-day" style="color:var(--red);">05</div>
-                        <div class="event-weekday">SUN</div>
-                    </div>
-                    <div class="event-body">
-                        <span class="event-type-tag">講演会</span>
-                        <div class="event-title">姫路こころざし大会</div>
-                        <div class="event-meta" style="margin-bottom:10px;">
-                            <span>
-                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                                開場 9:15 / 開演 10:00〜19:30
-                            </span>
-                            <span>
-                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                                姫路市民会館 大ホール（兵庫県・800名収容）
-                            </span>
-                        </div>
-                        <details style="cursor:pointer;">
-                            <summary style="font-size:0.72rem;color:var(--red);font-weight:700;letter-spacing:0.15em;list-style:none;display:inline-flex;align-items:center;gap:6px;">
-                                ▶ 登壇予定者を見る
-                            </summary>
-                            <div style="font-size:0.75rem;color:var(--text-dim);line-height:2;margin-top:8px;padding:12px;background:rgba(255,255,255,0.03);border-left:2px solid rgba(200,16,46,0.3);">
-                                原口一博（前衆議院議員）、門脇翔平（元葛飾区議会議員）、船瀬俊介（医療環境ジャーナリスト）、奥野卓志（ごぼうの党代表）、中村篤史（ナカムラクリニック院長）、池田としえ（日野市議会議員）
-                            </div>
-                        </details>
-                    </div>
-                    <div class="event-status" style="position:relative;z-index:10;">
-                        <div style="display:flex;flex-direction:column;align-items:center;gap:10px;">
-                            <span class="status-badge status-upcoming">UPCOMING</span>
-                            <a href="https://himeji-kokorozashi.peatix.com" target="_blank" rel="noopener noreferrer" class="event-apply-btn">
-                                申込む
-                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="event-card reveal" style="border-left-color:var(--gold);">
-                    <div class="event-date-block">
-                        <span class="event-month" style="color:var(--gold);">5月</span>
-                        <div class="event-day" style="color:var(--gold);">08</div>
-                        <div class="event-weekday">FRI</div>
-                    </div>
-                    <div class="event-body">
-                        <span class="event-type-tag" style="color:var(--gold);border-color:rgba(201,168,76,0.5);">国民大集会</span>
-                        <div class="event-title" style="font-size:1.15rem;">「5.8 国民大集会」</div>
-                        <div class="event-meta" style="margin-bottom:12px;">
-                            <span>
-                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                                第一部 9:30〜11:30
-                            </span>
-                            <span>
-                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                                四谷区民ホール（東京都）
-                            </span>
-                        </div>
-                        <div style="font-size:0.78rem;color:var(--text-dim);line-height:1.8;margin-bottom:10px;">
-                            「自立日本」「次のパンデミックの備え」国民大会
-                        </div>
-                        <details style="cursor:pointer;">
-                            <summary style="font-size:0.72rem;color:var(--gold);font-weight:700;letter-spacing:0.15em;list-style:none;display:inline-flex;align-items:center;gap:6px;">
-                                ▶ 登壇予定者を見る
-                            </summary>
-                            <div style="font-size:0.75rem;color:var(--text-dim);line-height:2;margin-top:8px;padding:12px;background:rgba(255,255,255,0.03);border-left:2px solid rgba(201,168,76,0.3);">
-                                石田和靖（MC、作家・中東情勢アナリスト）、林千勝（近現代史研究家、WHOから命をまもる国民運動 共同代表）、荒谷卓（日本自治集団・熊野飛鳥むすびの里 代表）、仲村恵子（日本中小企業経営審議会 代表）、饗庭浩明（JCU議長）、花木秀明（北里大学・山梨大学 特任教授）、村上康文（東京理科大学名誉教授、mRNAワクチン中止を求める国民連合 副代表）、小林平大央（日本先進医療臨床研究会 理事長）、古賀真（やまと経営者連盟 代表）、ほか<br>
-                                <span style="font-size:0.68rem;color:rgba(201,168,76,0.6);">※登壇者は変更になる可能性があります。</span>
-                            </div>
-                        </details>
-                    </div>
-                    <div class="event-status" style="position:relative;z-index:10;min-width:100px;">
-                        <div style="display:flex;flex-direction:column;align-items:center;gap:10px;">
-                            <span class="status-badge status-upcoming">UPCOMING</span>
-                            <a href="https://58kokumindaishukai.peatix.com/view" target="_blank" rel="noopener noreferrer" class="event-apply-btn">
-                                申込む
-                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ▲▲▲ イベントカード ここまで ▲▲▲ -->
-
-            </div>
-        </div>
-    </section>
-
-    <!-- 党員募集 -->
-
-    <section id="recruitment">
-        <div class="recruitment-inner">
-            <div class="reveal">
-                <div class="section-header">
-                    <span class="section-tag">PARTY MEMBERSHIP</span>
-                    <h2 class="section-title">党員<span>募集</span></h2>
-                    <div class="section-line"></div>
-                </div>
-                <table class="tier-table">
-                    <tbody>
-                        <tr class="tier-row">
-                            <td class="tier-name">特別賛助党員</td>
-                            <td class="tier-price">¥100,000 <span>/ 年</span></td>
-                        </tr>
-                        <tr class="tier-row tier-featured">
-                            <td class="tier-name">党員</td>
-                            <td class="tier-price">¥6,000 <span>/ 年</span></td>
-                        </tr>
-                        <tr class="tier-row">
-                            <td class="tier-name">党友</td>
-                            <td class="tier-price">¥4,000 <span>/ 年</span></td>
-                        </tr>
-                        <tr class="tier-row">
-                            <td class="tier-name">サポーター</td>
-                            <td class="tier-price">¥2,000 <span>/ 年</span></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p style="font-size:0.75rem;color:var(--text-dim);margin-top:16px;letter-spacing:0.05em;">※日本国籍を有する18歳以上の方が対象です。</p>
-            </div>
-            <div class="reveal reveal-delay-1">
-                <h3 style="font-family:'Bebas Neue',sans-serif;font-size:1.8rem;letter-spacing:0.1em;margin-bottom:8px;color:var(--text);">申込の手順</h3>
-                <p style="font-size:0.8rem;color:var(--text-dim);margin-bottom:8px;">APPLICATION PROCESS</p>
-                <div style="width:40px;height:2px;background:var(--red);margin-bottom:32px;"></div>
-                <ul class="steps">
-                    <li class="step">
-                        <span class="step-num">01</span>
-                        <div>
-                            <div class="step-title">オンライン登録</div>
-                            <div class="step-desc">下記の専用フォームより、必要事項を入力して送信してください。</div>
-                        </div>
-                    </li>
-                    <li class="step">
-                        <span class="step-num">02</span>
-                        <div>
-                            <div class="step-title">案内メールの確認</div>
-                            <div class="step-desc">登録されたアドレス宛に、会費の振込先情報を送付いたします。</div>
-                        </div>
-                    </li>
-                    <li class="step">
-                        <span class="step-num">03</span>
-                        <div>
-                            <div class="step-title">会費の納付</div>
-                            <div class="step-desc">指定口座へお振込ください。確認をもって正式な登録完了となります。</div>
-                        </div>
-                    </li>
-                </ul>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfhhyypE1DZMu2kpr0o_jSGQL5AjtFNy7qVfjozKaaauV0AFQ/viewform" target="_blank" class="btn-primary" style="width:100%;justify-content:center;margin-top:8px;">
-                    入党申込フォームを開く
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                <a href="#academy"
+                   class="group relative px-6 py-4 sm:px-8 sm:py-5 overflow-hidden rounded-full font-bold transition-all border border-rose-600/50 glass-panel hover:bg-white/10 text-white">
+                    <span class="relative flex items-center gap-2 italic text-rose-500 uppercase tracking-wider text-sm sm:text-base">
+                        政経塾 第1期 <i data-lucide="book-open" class="w-4 h-4 sm:w-5 sm:h-5" aria-hidden="true"></i>
+                    </span>
                 </a>
             </div>
         </div>
+
+        <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-50 animate-bounce" aria-hidden="true">
+            <span class="text-[10px] tracking-[0.4em] font-bold uppercase text-white leading-none">Scroll</span>
+            <i data-lucide="chevron-down" class="text-rose-500 w-5 h-5"></i>
+        </div>
     </section>
 
-    <!-- 政経塾 -->
-    <section id="academy">
-        <div class="academy-inner">
-            <div class="reveal">
-                <div class="section-header">
-                    <span class="section-tag">POLITICAL ACADEMY</span>
-                    <h2 class="section-title" style="white-space:nowrap;font-size:clamp(1.6rem,5vw,5rem);">原口一博<span>政経塾</span></h2>
-                    <div class="section-line"></div>
-                </div>
-                <span class="academy-badge">第1期 募集中</span>
-                <p style="font-size:0.92rem;color:var(--text-dim);line-height:2;margin-bottom:32px;">
-                    主権を国民の手に取り戻す。志を同じくする仲間とともに、再興の大きなうねりを作ります。その中核を担うのが、この「政経塾」です。
-                    「shirasu（知らす）」の精神、認知心理学に基づく人間理解、反映した経済・外交の神髄を学び、次世代の日本を担うリーダーを輩出します。
+    <!-- 党員募集セクション -->
+    <section id="recruitment" class="py-32 px-6 relative border-t border-white/5 bg-[#080808]"
+             aria-labelledby="recruitment-heading">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-24">
+                <h2 id="recruitment-heading" class="text-5xl md:text-7xl font-black italic font-oswald uppercase mb-4 text-white">
+                    Party <span class="text-rose-600">Recruitment</span>
+                </h2>
+                <div class="text-2xl md:text-3xl font-bold text-gray-400 tracking-widest mb-4 italic">ゆうこく連合 党員募集</div>
+                <div class="w-24 h-1 bg-rose-600 mx-auto rounded-full"></div>
+                <p class="mt-6 text-gray-400 max-w-2xl mx-auto text-base leading-relaxed">
+                    日本国籍を有する18歳以上の方であれば、どなたでも入党申込が可能です。
+                    特別賛助党員・党員・党友・サポーターの4種別からお選びいただけます。
                 </p>
-                <div class="deadline-box">
-                    <div class="deadline-label">APPLICATION PERIOD</div>
-                    <div class="deadline-date">2026.02.13 〜 2026.03.23</div>
-                </div>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfHe4hB-8_f4qsejryE83LapmjIm4oOclc2wgk0Uumv-zoQpw/viewform?pli=1" target="_blank" class="btn-primary" style="width:100%;justify-content:center;">
-                    塾生申込フォームを開く
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                </a>
             </div>
-            <div class="reveal reveal-delay-1">
-                <h3 style="font-family:'Bebas Neue',sans-serif;font-size:1.8rem;letter-spacing:0.1em;margin-bottom:8px;color:var(--text);">Academy Overview</h3>
-                <p style="font-size:0.8rem;color:var(--text-dim);margin-bottom:32px;">開講情報</p>
-                <div class="academy-info-grid">
-                    <div class="info-cell">
-                        <div class="info-label">PERIOD</div>
-                        <div class="info-value">2026年4月<br>〜 12月</div>
+
+            <!-- 3つの理念 -->
+            <div class="grid md:grid-cols-3 gap-8 mb-24">
+                <div class="glass-panel p-10 rounded-3xl border-t-4 border-rose-600 hover:bg-white/[0.05] transition-colors group">
+                    <div class="text-rose-600 font-oswald text-5xl mb-6 font-black italic opacity-50 group-hover:opacity-100 transition-opacity" aria-hidden="true">01</div>
+                    <h3 class="text-2xl font-black mb-4 text-white">日本独立</h3>
+                    <p class="text-gray-400 leading-loose">独立自尊の日本を創る。国際社会において、他国に依存せず、自らの意志で歩む真の独立を目指します。</p>
+                </div>
+                <div class="glass-panel p-10 rounded-3xl border-t-4 border-rose-600 hover:bg-white/[0.05] transition-colors group">
+                    <div class="text-rose-600 font-oswald text-5xl mb-6 font-black italic opacity-50 group-hover:opacity-100 transition-opacity" aria-hidden="true">02</div>
+                    <h3 class="text-2xl font-black mb-4 text-white">日本再興</h3>
+                    <p class="text-gray-400 leading-loose">衰退から成長へ。停滞した経済と社会構造を根本から見直し、再び輝く日本へと変革します。</p>
+                </div>
+                <div class="glass-panel p-10 rounded-3xl border-t-4 border-rose-600 hover:bg-white/[0.05] transition-colors group">
+                    <div class="text-rose-600 font-oswald text-5xl mb-6 font-black italic opacity-50 group-hover:opacity-100 transition-opacity" aria-hidden="true">03</div>
+                    <h3 class="text-2xl font-black mb-4 text-white">日本救世</h3>
+                    <p class="text-gray-400 leading-loose">国民の命と暮らしを守る。未曾有の危機に対し、確固たる信念を持って国民の未来を切り拓きます。</p>
+                </div>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-16 items-start">
+                <!-- 党員種別 -->
+                <div class="space-y-6">
+                    <h3 class="text-3xl font-bold flex items-center gap-4 mb-10 text-white italic">
+                        <i data-lucide="layers" class="text-rose-600" aria-hidden="true"></i>
+                        党員種別・年会費一覧
+                    </h3>
+                    <!-- SEO: 構造化されたリスト -->
+                    <ul class="grid grid-cols-1 gap-4" aria-label="党員種別と年会費">
+                        <li class="tier-card p-6 border border-white/10 rounded-2xl transition-all glass-panel flex justify-between items-center group">
+                            <span class="font-bold text-lg group-hover:text-rose-400 transition-colors">特別賛助党員</span>
+                            <span class="text-rose-500 font-black font-oswald text-2xl italic">¥100,000<span class="text-xs ml-1 text-gray-500 not-italic">/年</span></span>
+                        </li>
+                        <li class="tier-card p-6 border border-white/10 rounded-2xl transition-all glass-panel flex justify-between items-center group">
+                            <span class="font-bold text-lg group-hover:text-rose-400 transition-colors">党員</span>
+                            <span class="text-rose-500 font-black font-oswald text-2xl italic">¥6,000<span class="text-xs ml-1 text-gray-500 not-italic">/年</span></span>
+                        </li>
+                        <li class="tier-card p-6 border border-white/10 rounded-2xl transition-all glass-panel flex justify-between items-center group">
+                            <span class="font-bold text-lg group-hover:text-rose-400 transition-colors">党友</span>
+                            <span class="text-rose-500 font-black font-oswald text-2xl italic">¥4,000<span class="text-xs ml-1 text-gray-500 not-italic">/年</span></span>
+                        </li>
+                        <li class="tier-card p-6 border border-white/10 rounded-2xl transition-all glass-panel flex justify-between items-center group">
+                            <span class="font-bold text-lg group-hover:text-rose-400 transition-colors">サポーター</span>
+                            <span class="text-rose-500 font-black font-oswald text-2xl italic">¥2,000<span class="text-xs ml-1 text-gray-500 not-italic">/年</span></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 申込手順 -->
+                <div class="glass-panel p-10 rounded-3xl border border-rose-600/20 shadow-2xl relative overflow-hidden">
+                    <div class="absolute -right-16 -bottom-16 opacity-5 text-rose-600" aria-hidden="true">
+                        <i data-lucide="clipboard-check" class="w-80 h-80"></i>
                     </div>
-                    <div class="info-cell">
-                        <div class="info-label">FORMAT</div>
-                        <div class="info-value">オンライン<br>Zoom / 限定配信</div>
-                    </div>
-                    <div class="info-cell">
-                        <div class="info-label">SCHEDULE</div>
-                        <div class="info-value">毎月2回<br>第1・第3火曜 19:00〜</div>
-                    </div>
-                    <div class="info-cell">
-                        <div class="info-label">TUITION</div>
-                        <div class="info-value price">¥100,000<span style="font-family:'Noto Sans JP',sans-serif;font-size:0.75rem;color:var(--text-dim);"> / 年</span></div>
+                    <h3 class="text-3xl font-bold mb-10 flex items-center gap-4 text-white italic">
+                        <i data-lucide="mouse-pointer-click" class="text-rose-600" aria-hidden="true"></i>
+                        入党申込の手順
+                    </h3>
+                    <ol class="space-y-8 relative z-10" aria-label="入党申込ステップ">
+                        <li class="flex gap-6">
+                            <div class="w-12 h-12 rounded-full bg-rose-600 flex items-center justify-center font-black text-xl shrink-0 shadow-lg shadow-rose-600/20 italic" aria-hidden="true">1</div>
+                            <div>
+                                <h4 class="font-bold text-xl mb-2">オンライン登録</h4>
+                                <p class="text-gray-400">下記の専用フォームより、必要事項を入力して送信してください。</p>
+                            </div>
+                        </li>
+                        <li class="flex gap-6">
+                            <div class="w-12 h-12 rounded-full bg-rose-600 flex items-center justify-center font-black text-xl shrink-0 shadow-lg shadow-rose-600/20 italic" aria-hidden="true">2</div>
+                            <div>
+                                <h4 class="font-bold text-xl mb-2">案内メールの確認</h4>
+                                <p class="text-gray-400">登録されたアドレス宛に、会費の振込先情報を送付いたします。</p>
+                            </div>
+                        </li>
+                        <li class="flex gap-6">
+                            <div class="w-12 h-12 rounded-full bg-rose-600 flex items-center justify-center font-black text-xl shrink-0 shadow-lg shadow-rose-600/20 italic" aria-hidden="true">3</div>
+                            <div>
+                                <h4 class="font-bold text-xl mb-2">会費の納付・登録完了</h4>
+                                <p class="text-gray-400">指定口座へお振込ください。確認をもって正式な登録完了となります。</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <div class="mt-12 flex flex-col items-center">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfhhyypE1DZMu2kpr0o_jSGQL5AjtFNy7qVfjozKaaauV0AFQ/viewform"
+                           target="_blank" rel="noopener noreferrer"
+                           class="w-full inline-flex items-center justify-center gap-3 bg-white text-rose-600 px-4 py-4 sm:px-8 sm:py-5 rounded-full font-black text-lg sm:text-xl hover:bg-gray-100 transition-all transform hover:-translate-y-1 shadow-2xl"
+                           aria-label="ゆうこく連合 入党申込フォームを開く（外部サイト）">
+                            入党申込フォームを開く <i data-lucide="external-link" class="w-5 h-5 shrink-0" aria-hidden="true"></i>
+                        </a>
+                        <p class="mt-6 text-xs text-gray-500 font-bold tracking-widest uppercase italic">※日本国籍を有する18歳以上の方が対象です。</p>
                     </div>
                 </div>
-                <div style="background:var(--dark3);border-left:3px solid var(--gold);padding:28px 24px;">
-                    <p style="font-size:0.75rem;letter-spacing:0.3em;color:var(--gold);font-weight:700;margin-bottom:12px;">ABOUT THE ACADEMY</p>
-                    <p style="font-size:0.88rem;color:var(--text-dim);line-height:2;">原口一博氏の志を継承し、政治・経済・外交の現場で即戦力となるリーダーを育成します。毎月2回のオンライン講義で、実践的な知識とネットワークを構築します。</p>
-                </div>
+            </div>
+
+            <!-- SEO: FAQ セクション（構造化データと連動） -->
+            <div class="mt-24">
+                <h3 class="text-3xl font-bold text-center mb-12 text-white italic">
+                    よくある質問 <span class="text-rose-600">FAQ</span>
+                </h3>
+                <dl class="space-y-6 max-w-3xl mx-auto">
+                    <div class="glass-panel p-8 rounded-2xl border border-white/10">
+                        <dt class="font-bold text-xl mb-3 text-white">ゆうこく連合の党員になるにはどうすればいいですか？</dt>
+                        <dd class="text-gray-400 leading-loose">オンラインフォームより必要事項を入力して送信後、案内メールに記載の口座へ会費を振り込むことで正式登録が完了します。日本国籍を有する18歳以上の方が対象です。</dd>
+                    </div>
+                    <div class="glass-panel p-8 rounded-2xl border border-white/10">
+                        <dt class="font-bold text-xl mb-3 text-white">ゆうこく連合の党費はいくらですか？</dt>
+                        <dd class="text-gray-400 leading-loose">特別賛助党員：年100,000円、党員：年6,000円、党友：年4,000円、サポーター：年2,000円の4種別があります。</dd>
+                    </div>
+                </dl>
             </div>
         </div>
     </section>
 
-    <!-- SNS -->
-    <section id="social" style="padding:80px 5vw;">
-        <div class="social-inner reveal">
-            <span class="section-tag" style="display:block;text-align:center;">FOLLOW US</span>
-            <h2 style="font-family:'Bebas Neue',sans-serif;font-size:clamp(2rem,5vw,3.5rem);letter-spacing:0.1em;text-align:center;color:var(--text);">最新情報を<span style="color:var(--red);">フォロー</span></h2>
-            <div class="social-links">
-                <a href="https://haraguti.com/" target="_blank" class="social-link">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-                    原口一博 公式
-                </a>
-                <a href="https://x.com/kharaguchi" target="_blank" class="social-link">
-                    <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.259 5.63L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                    原口一博 X
-                </a>
-                <a href="https://www.youtube.com/@kharaguchi" target="_blank" class="social-link">
-                    <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-                    原口一博 YouTube
-                </a>
-                <a href="https://www.facebook.com/kharagucih/" target="_blank" class="social-link">
-                    <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-                    原口一博 Facebook
-                </a>
-                <a href="https://www.tiktok.com/@kazuhiroharaguchi" target="_blank" class="social-link">
-                    <svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.27 8.27 0 0 0 4.84 1.55V6.79a4.85 4.85 0 0 1-1.07-.1z"/></svg>
-                    原口一博 TikTok
-                </a>
-                <a href="https://rumble.com/user/KazuhiroHaraguchiRepSamurai" target="_blank" class="social-link">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-                    原口一博 Rumble
-                </a>
-                <a href="https://note.com/haraguchikazu" target="_blank" class="social-link">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
-                    原口一博 no+e
-                </a>
-                <a href="https://truthsocial.com/@KazuhiroHaraguchi" target="_blank" class="social-link">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4m0 4h.01"/></svg>
-                    原口一博 TRUTH.
-                </a>
+    <!-- 政経塾セクション -->
+    <section id="academy" class="py-32 px-6 relative bg-[#0d0d0d] overflow-hidden border-t border-white/5"
+             aria-labelledby="academy-heading">
+        <div class="absolute top-0 right-0 p-20 opacity-[0.02] pointer-events-none text-white" aria-hidden="true">
+            <i data-lucide="landmark" class="w-96 h-96"></i>
+        </div>
+        
+        <div class="max-w-7xl mx-auto relative z-10">
+            <div class="mb-20">
+                <h2 id="academy-heading" class="text-5xl md:text-8xl font-black italic font-oswald uppercase mb-6 leading-none text-white">
+                    原口一博<span class="text-rose-600">政経塾</span>
+                </h2>
+                <div class="flex flex-wrap items-center gap-6">
+                    <span class="bg-rose-600 text-white px-6 py-2 text-lg font-black italic skew-x-[-12deg]">第1期 募集中</span>
+                    <span class="text-2xl md:text-3xl font-bold tracking-widest text-gray-400 italic">2026年4月 開講予定</span>
+                </div>
+                <p class="mt-6 text-gray-400 max-w-2xl leading-relaxed">
+                    主権を国民の手に取り戻す次世代リーダーを育成するため、原口一博氏の志を受け継ぐ「政経塾」第1期生を募集しています。申込締切：<strong class="text-rose-400">2026年3月23日</strong>。
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-16">
+                <div class="space-y-8">
+                    <h3 class="text-2xl md:text-3xl font-bold section-accent pl-8 text-white italic uppercase tracking-tighter">
+                        ゆうこく連合 強化・発展シナリオ
+                    </h3>
+                    <p class="text-lg leading-relaxed text-gray-300">
+                        主権を国民の手に取り戻す。志を同じくする1万人の仲間とともに、再興の大きなうねりを作ります。
+                        その中核を担うのが、この「政経塾」です。
+                    </p>
+                    <div class="glass-panel p-8 rounded-3xl border-l-8 border-rose-600 shadow-xl">
+                        <h4 class="text-xl font-bold mb-4 text-white">原口一博氏の志を継承する</h4>
+                        <p class="text-gray-400 leading-loose">
+                            「shirasu（知らす）」の精神、認知心理学に基づく人間理解、経済・外交の神髄。
+                            次世代の日本を担うリーダーを輩出するための学び舎です。
+                        </p>
+                    </div>
+
+                    <!-- SEO: FAQ 政経塾 -->
+                    <div class="glass-panel p-8 rounded-2xl border border-white/10">
+                        <h4 class="font-bold text-xl mb-3 text-white">原口一博政経塾の費用と期間は？</h4>
+                        <p class="text-gray-400 leading-loose">2026年4月〜12月の9ヶ月間、年間受講料100,000円です。毎月2回（第1・第3火曜日）19:00よりオンライン（Zoom）で開講します。</p>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <div class="glass-panel p-10 rounded-3xl border border-white/10 shadow-2xl">
+                        <h3 class="text-2xl font-bold mb-8 flex items-center gap-4 font-oswald italic uppercase tracking-wider text-white">
+                            <i data-lucide="info" class="text-rose-600" aria-hidden="true"></i>
+                            政経塾 開催概要
+                        </h3>
+                        <dl class="space-y-6">
+                            <div class="flex items-center gap-5">
+                                <i data-lucide="calendar" class="text-rose-500 w-6 h-6 shrink-0" aria-hidden="true"></i>
+                                <dt class="text-gray-400 shrink-0">期間：</dt>
+                                <dd class="font-bold text-lg"><time datetime="2026-04">2026年4月</time> 〜 <time datetime="2026-12">12月</time></dd>
+                            </div>
+                            <div class="flex items-center gap-5">
+                                <i data-lucide="clock" class="text-rose-500 w-6 h-6 shrink-0" aria-hidden="true"></i>
+                                <dt class="text-gray-400 shrink-0">日時：</dt>
+                                <dd class="font-bold text-lg">毎月2回（第1・第3火曜日） 19:00〜</dd>
+                            </div>
+                            <div class="flex items-center gap-5">
+                                <i data-lucide="video" class="text-rose-500 w-6 h-6 shrink-0" aria-hidden="true"></i>
+                                <dt class="text-gray-400 shrink-0">形式：</dt>
+                                <dd class="font-bold text-lg">オンライン（Zoom・限定配信）</dd>
+                            </div>
+                            <div class="flex items-center gap-5">
+                                <i data-lucide="credit-card" class="text-rose-500 w-6 h-6 shrink-0" aria-hidden="true"></i>
+                                <dt class="text-gray-400 shrink-0">学費：</dt>
+                                <dd class="font-bold text-lg text-rose-500">¥100,000 / 年</dd>
+                            </div>
+                        </dl>
+                    </div>
+
+                    <div class="bg-rose-600 p-8 sm:p-10 rounded-3xl text-white relative overflow-hidden group shadow-2xl">
+                        <i data-lucide="rocket" class="absolute -right-6 -bottom-6 w-56 h-56 opacity-10 group-hover:rotate-12 transition-transform" aria-hidden="true"></i>
+                        <div class="relative z-10">
+                            <p class="text-sm font-black tracking-[0.3em] mb-3 opacity-80 uppercase font-oswald italic">申込受付期間</p>
+                            <div class="text-2xl sm:text-3xl font-black mb-6 italic font-oswald">
+                                <time datetime="2026-02-13">2026.02.13</time> 〜 <time datetime="2026-03-23">2026.03.23</time>
+                            </div>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfHe4hB-8_f4qsejryE83LapmjIm4oOclc2wgk0Uumv-zoQpw/viewform?pli=1"
+                               target="_blank" rel="noopener noreferrer"
+                               class="w-full inline-flex items-center justify-center gap-3 bg-white text-rose-600 px-4 py-4 sm:px-8 sm:py-5 rounded-full font-black text-lg sm:text-xl hover:bg-gray-100 transition-all shadow-xl"
+                               aria-label="原口一博政経塾 第1期 塾生申込フォームを開く（外部サイト）">
+                                塾生申込フォームを開く <i data-lucide="arrow-right-circle" class="w-5 h-5 sm:w-6 sm:h-6 shrink-0" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    </main>
 
     <!-- フッター -->
-    <footer>
-        <div class="footer-grid">
-            <div>
-                <div class="footer-logo">
-                    <img src="https://raw.githubusercontent.com/yukoku-japan/yukoku/main/favicon.png" alt="ゆうこく連合">
-                    <span class="footer-logo-text">YUKOKU <span>RENGO</span></span>
+    <footer class="py-24 px-6 bg-[#050505] border-t border-white/5" role="contentinfo">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-16 mb-20">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-4 mb-8">
+                    <img src="https://raw.githubusercontent.com/yukoku-japan/yukoku/main/favicon.png"
+                         alt="ゆうこく連合 フッターロゴ"
+                         class="w-12 h-12 opacity-90 object-contain"
+                         width="48" height="48" loading="lazy">
+                    <div class="text-2xl font-black font-oswald uppercase text-white tracking-tighter">YUKOKU <span class="text-rose-600">RENGO</span></div>
                 </div>
-                <p class="footer-desc">日本独立・再興・救世。ゆうこく連合の志を広め、より良い日本の未来を共に創り出すための非公式応援サイトです。</p>
-                <div style="margin-top:20px;">
-                    <p style="font-size:0.65rem;letter-spacing:0.3em;color:var(--text-dim);font-weight:700;margin-bottom:8px;">MANAGED BY</p>
-                    <a href="https://x.com/TGO_RECLUTE" target="_blank" style="display:inline-flex;align-items:center;gap:8px;color:var(--text-dim);text-decoration:none;font-size:0.8rem;font-weight:700;transition:color 0.3s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--text-dim)'">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.259 5.63L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                        TGO RECLUTE
-                    </a>
-                </div>
+                <p class="text-gray-500 max-w-sm mb-8 leading-relaxed italic">
+                    日本独立・再興・救世。ゆうこく連合の志を広め、より良い日本の未来を共に創り出すための非公式応援サイトです。
+                </p>
+                <nav aria-label="SNSリンク">
+                    <ul class="flex gap-4">
+                        <li>
+                            <a href="https://x.com/TGO_RECLUTE" target="_blank" rel="noopener noreferrer"
+                               class="w-12 h-12 glass-panel rounded-full flex items-center justify-center hover:bg-rose-600 transition border border-rose-600/30 shadow-lg group"
+                               aria-label="X (Twitter) @TGO_RECLUTE">
+                                <i data-lucide="twitter" class="w-5 h-5 group-hover:scale-110 transition-transform" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/@tgo-news" target="_blank" rel="noopener noreferrer"
+                               class="w-12 h-12 glass-panel rounded-full flex items-center justify-center hover:bg-rose-600 transition border border-rose-600/30 shadow-lg group"
+                               aria-label="YouTube TGO NEWS チャンネル">
+                                <i data-lucide="youtube" class="w-5 h-5 group-hover:scale-110 transition-transform" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <div>
-                <div class="footer-heading">SITE LINKS</div>
-                <ul class="footer-links">
-                    <li><a href="#hero">ホーム</a></li>
-                    <li><a href="#principles">三つの理念</a></li>
-                    <li><a href="#events">イベント情報</a></li>
-                    <li><a href="#recruitment">党員募集</a></li>
-                    <li><a href="#academy">政経塾</a></li>
+            
+            <nav aria-label="サイトリンク">
+                <h5 class="text-white font-black mb-8 text-sm uppercase tracking-widest font-oswald italic border-b border-rose-600 w-fit pb-1">Site Links</h5>
+                <ul class="space-y-4 text-sm font-bold">
+                    <li><a href="#home" class="text-gray-400 hover:text-rose-500 transition-colors">ホーム</a></li>
+                    <li><a href="#recruitment" class="text-gray-400 hover:text-rose-500 transition-colors">党員募集</a></li>
+                    <li><a href="#academy" class="text-gray-400 hover:text-rose-500 transition-colors">原口一博政経塾</a></li>
                 </ul>
-            </div>
-            <div>
-                <div class="footer-heading">OFFICIAL</div>
-                <ul class="footer-links">
-                    <li><a href="https://haraguti.com/" target="_blank">原口一博 公式サイト</a></li>
-                    <li><a href="https://x.com/kharaguchi" target="_blank">原口一博 X</a></li>
-                    <li><a href="https://www.youtube.com/@kharaguchi" target="_blank">原口一博 YouTube</a></li>
-                    <li><a href="https://www.facebook.com/kharagucih/" target="_blank">原口一博 Facebook</a></li>
-                    <li><a href="https://www.tiktok.com/@kazuhiroharaguchi" target="_blank">原口一博 TikTok</a></li>
-                    <li><a href="https://rumble.com/user/KazuhiroHaraguchiRepSamurai" target="_blank">原口一博 Rumble</a></li>
-                    <li><a href="https://note.com/haraguchikazu" target="_blank">原口一博 no+e</a></li>
-                    <li><a href="https://truthsocial.com/@KazuhiroHaraguchi" target="_blank">原口一博 TRUTH.</a></li>
+            </nav>
+
+            <nav aria-label="公式サイトリンク">
+                <h5 class="text-white font-black mb-8 text-sm uppercase tracking-widest font-oswald italic border-b border-rose-600 w-fit pb-1">Official Sites</h5>
+                <ul class="space-y-4 text-sm">
+                    <li><a href="https://haraguti.com/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-rose-500 transition-colors">原口一博 公式サイト</a></li>
+                    <li><a href="https://x.com/kharaguchi" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-rose-500 transition-colors">公式 X (Twitter) @kharaguchi</a></li>
+                    <li><a href="https://www.youtube.com/@kharaguchi" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-rose-500 transition-colors">公式 YouTube チャンネル</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
-        <div class="footer-bottom">
-            <p class="footer-copy">&copy; 2024-2026 Yukoku Rengo Fan Project. Managed by TGO RECLUTE.</p>
-            <p class="footer-disclaimer">このサイトはファン有志による制作物であり、原口一博氏、ならびに関係各団体とは一切関係ありません。</p>
+        
+        <div class="max-w-7xl mx-auto pt-10 border-t border-white/5 flex flex-col lg:flex-row justify-between gap-8 items-center text-[10px] text-gray-600 font-bold uppercase tracking-widest">
+            <p>&copy; 2024-2026 Yukoku Rengo Fan Project. Managed by TGO NEWS.</p>
+            <p class="max-w-md text-center lg:text-right italic leading-relaxed text-gray-400 normal-case tracking-normal text-xs">
+                このサイトはファン有志による制作物であり、原口一博氏、ならびに関係各団体とは一切関係ありません。
+            </p>
         </div>
     </footer>
 
+    <!-- ステータス通知 -->
+    <div id="status-toast" class="fixed bottom-6 left-6 z-[200] px-6 py-4 bg-rose-600 rounded-2xl font-black text-white shadow-2xl translate-y-32 transition-transform duration-500 flex items-center gap-4 italic border border-white/20"
+         role="status" aria-live="polite" aria-atomic="true">
+        <i data-lucide="shield-check" class="w-6 h-6" aria-hidden="true"></i>
+        <span>ACTION SUCCESS!</span>
+    </div>
+
     <script>
-        // カスタムカーソル
-        const cursor = document.getElementById('cursor');
-        const ring = document.getElementById('cursor-ring');
-        let mx = 0, my = 0, rx = 0, ry = 0;
-        document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; });
-        function animateCursor() {
-            if (cursor) { cursor.style.left = mx + 'px'; cursor.style.top = my + 'px'; }
-            rx += (mx - rx) * 0.12;
-            ry += (my - ry) * 0.12;
-            if (ring) { ring.style.left = rx + 'px'; ring.style.top = ry + 'px'; }
-            requestAnimationFrame(animateCursor);
+        lucide.createIcons();
+
+        function showToast(msg) {
+            const toast = document.getElementById('status-toast');
+            toast.querySelector('span').innerText = msg;
+            toast.classList.remove('translate-y-32');
+            setTimeout(() => toast.classList.add('translate-y-32'), 4000);
         }
-        animateCursor();
-        document.querySelectorAll('a, button').forEach(el => {
-            el.addEventListener('mouseenter', () => { if(cursor){cursor.style.width='20px';cursor.style.height='20px';} if(ring){ring.style.width='60px';ring.style.height='60px';} });
-            el.addEventListener('mouseleave', () => { if(cursor){cursor.style.width='10px';cursor.style.height='10px';} if(ring){ring.style.width='36px';ring.style.height='36px';} });
-        });
 
-        // ナビスクロール
-        const navbar = document.getElementById('navbar');
-        window.addEventListener('scroll', () => {
-            navbar.classList.toggle('scrolled', window.scrollY > 60);
-        });
-
-        // ハンバーガー
-        const hamburger = document.getElementById('hamburger');
+        const menuTrigger = document.getElementById('mobile-menu-trigger');
         const mobileMenu = document.getElementById('mobile-menu');
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('open');
-            mobileMenu.classList.toggle('open');
-            document.body.style.overflow = mobileMenu.classList.contains('open') ? 'hidden' : '';
-        });
-        document.querySelectorAll('.mobile-link').forEach(link => {
-            link.addEventListener('click', () => {
-                hamburger.classList.remove('open');
-                mobileMenu.classList.remove('open');
+        const menuIcon = document.getElementById('menu-icon');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+        let isMenuOpen = false;
+
+        function toggleMenu() {
+            isMenuOpen = !isMenuOpen;
+            if (isMenuOpen) {
+                mobileMenu.classList.remove('translate-x-full');
+                menuIcon.setAttribute('data-lucide', 'x');
+                menuTrigger.setAttribute('aria-expanded', 'true');
+                menuTrigger.setAttribute('aria-label', 'メニューを閉じる');
+                document.body.style.overflow = 'hidden';
+            } else {
+                mobileMenu.classList.add('translate-x-full');
+                menuIcon.setAttribute('data-lucide', 'menu');
+                menuTrigger.setAttribute('aria-expanded', 'false');
+                menuTrigger.setAttribute('aria-label', 'メニューを開く');
                 document.body.style.overflow = '';
-            });
+            }
+            lucide.createIcons();
+        }
+
+        menuTrigger.addEventListener('click', toggleMenu);
+        mobileLinks.forEach(link => link.addEventListener('click', toggleMenu));
+
+        // ESCキーでメニューを閉じる
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && isMenuOpen) toggleMenu();
         });
 
-        // スクロールリビール
-        const reveals = document.querySelectorAll('.reveal');
-        const observer = new IntersectionObserver(entries => {
-            entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
-        }, { threshold: 0.15 });
-        reveals.forEach(el => observer.observe(el));
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const heroBg = document.getElementById('hero-parallax');
+            if (heroBg) {
+                heroBg.style.transform = `translateY(${scrolled * 0.15}px) scale(${1.1 + scrolled * 0.0001})`;
+            }
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('bg-black/80', scrolled > 50);
+        });
+
+        window.addEventListener('load', () => {
+            setTimeout(() => showToast("ゆうこく連合 応援プロジェクトへようこそ"), 1000);
+        });
     </script>
 </body>
 </html>
